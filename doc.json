@@ -1,0 +1,513 @@
+{
+   "uuid" : "8606660e-06d2-4ebe-bc3a-6c17cbfb6179",
+   "uri" : "im://article/8606660e-06d2-4ebe-bc3a-6c17cbfb6179",
+   "path" : "2017-02-22/malmorestaurang-far-tva-stjarnor-i-michelinguiden",
+   "title" : "Malmörestaurang får två stjärnor i Michelinguiden",
+   "type" : "x-im/article",
+   "status" : "usable",
+   "source" : "writer",
+   "products" : [
+      "sydsvenskan"
+   ],
+   "created" : "2017-02-22T08:12:40Z",
+   "modified" : "2017-02-22T10:37:23Z",
+   "published" : "2017-02-22T09:22:07+01:00",
+   "links" : [
+      {
+         "uuid" : "be5b467a-c2d3-58d0-be1c-cadccd525db6",
+         "rel" : "channel",
+         "type" : "x-im/channel",
+         "title" : "Dygnet runt"
+      },
+      {
+         "title" : "Malmö",
+         "type" : "x-im/channel",
+         "uuid" : "b322c84f-7e97-4af6-a23a-62f61504a910",
+         "rel" : "subject"
+      },
+      {
+         "rel" : "subject",
+         "uuid" : "4e4dc5e4-24a0-50e5-8761-3deade542cf3",
+         "type" : "x-im/organisation",
+         "title" : "Krog och mat"
+      },
+      {
+         "title" : "Jonas Gillberg",
+         "type" : "x-im/author",
+         "uuid" : "77fe8f0c-4aaf-4b5d-8369-08dac4a67878",
+         "rel" : "author"
+      },
+      {
+         "uuid" : "5c7bae59-0fce-4dbf-83d5-b5b63927bfaf",
+         "rel" : "subject",
+         "type" : "x-im/story",
+         "title" : "Guide Michelin 2017"
+      },
+      {
+         "rel" : "subject",
+         "uuid" : "3d6fc86c-f699-484e-80ff-e4305d2b0e44",
+         "type" : "x-im/place",
+         "title" : "Vollmers",
+         "data" : {
+            "geometry" : "POINT(12.9967087 55.60465259999999)"
+         }
+      },
+      {
+         "title" : "Bloom in the park",
+         "type" : "x-im/place",
+         "data" : {
+            "geometry" : "POINT(12.99701570000002 55.5906888)"
+         },
+         "uuid" : "fa2d7f54-ae88-4b40-b624-dbab066d4abd",
+         "rel" : "subject"
+      },
+      {
+         "data" : {
+            "geometry" : "POINT(13.00048449999997 55.6073427)"
+         },
+         "title" : "Sture, Malmö",
+         "type" : "x-im/place",
+         "uuid" : "b1e56187-d953-404c-8956-41dffa5a3cec",
+         "rel" : "subject"
+      },
+      {
+         "title" : "Daniel Berlin Krog",
+         "type" : "x-im/place",
+         "data" : {
+            "geometry" : "POINT(13.993008499999974 55.6125085)"
+         },
+         "rel" : "subject",
+         "uuid" : "48b32bd4-59f9-41a6-baea-860ef594a8d9"
+      }
+   ],
+   "content" : [
+      {
+         "id" : "d9a0e68e272d",
+         "type" : "x-cmbr/preamble",
+         "data" : {
+            "format" : "html",
+            "text" : "Det kan vara det största som hänt Skånes krogvärld. På onsdagen blev det klart att Malmörestaurangen Vollmers tilldelas två stjärnor i den kommande Michelinguiden och blir den sjätte restaurangen i landet med den äran. Dessutom får Malmörestaurangen Sture en stjärna i guiden."
+         }
+      },
+      {
+         "id" : "MjUyLDkzLDIyMCw4",
+         "uuid" : "beeea8ca-ec26-59b4-bd2d-e0b6f44c960d",
+         "links" : [
+            {
+               "links" : [
+                  {
+                     "uuid" : "00000000-0000-0000-0000-000000000000",
+                     "rel" : "author",
+                     "title" : "Jessica Gow/TT"
+                  }
+               ],
+               "type" : "x-im/image",
+               "data" : {
+                  "text" : "Karim Khouani från restaurang Sture som tilldelades en stjärna tillsammans med bröderna Mats och Ebbe Vollmer från restaurang Vollmers som fick två.",
+                  "width" : 2560,
+                  "height" : 1536
+               },
+               "uri" : "im://image/MsV6vIznJIJD1ShQ-7rFiu4y0dI.jpeg",
+               "uuid" : "beeea8ca-ec26-59b4-bd2d-e0b6f44c960d",
+               "rel" : "self"
+            }
+         ],
+         "type" : "x-im/image"
+      },
+      {
+         "id" : "paragraph-80075258d6d34c932a3a4375da8e1d7e",
+         "data" : {
+            "format" : "html",
+            "text" : "På onsdagsförmiddagen presenterade Michelinguiden vilka skandinaviska restauranger som kommer att finnas med i deras guide för 2017. På en presskonferens på Vasateatern i Stockholm förklarade Michael Ellis från Guide Michelin att restaurangen Vollmers på Tegelgårdsgatan i Malmö kommer att ha två stjärnor i årets Michelinguide."
+         },
+         "type" : "x-cmbr/text"
+      },
+      {
+         "data" : {
+            "text" : "Ingen annan restaurang i Skåne eller Göteborg har tidigare haft två stjärnor i guiden. Enbart fem restauranger har haft den äran i Sverige: Fäviken Magasinet i Järpen, de tre Stockholmsrestaurangerna Oaxen, Mathias Dahlgren Matsalen och Frantzén samt nu nedlagda Edsbacka Krog.",
+            "format" : "html"
+         },
+         "type" : "x-cmbr/text",
+         "id" : "paragraph-050db32ebaa5a1cf9ee63a7a9021e523"
+      },
+      {
+         "links" : [
+            {
+               "data" : {
+                  "height" : 3712,
+                  "width" : 5568,
+                  "text" : "Mats och Ebbe Vollmer  uppe på Vasateaterns scen."
+               },
+               "type" : "x-im/image",
+               "links" : [
+                  {
+                     "title" : "Jessica Gow/TT",
+                     "rel" : "author",
+                     "uuid" : "00000000-0000-0000-0000-000000000000"
+                  }
+               ],
+               "uuid" : "fc7ad147-ccc1-5bd2-a03c-1fc2ff4e9d33",
+               "rel" : "self",
+               "uri" : "im://image/87MM0bWnxVis3El1P_1adMc72ds.jpeg"
+            }
+         ],
+         "type" : "x-im/image",
+         "id" : "MTIsOTEsOTAsMjMw",
+         "uuid" : "fc7ad147-ccc1-5bd2-a03c-1fc2ff4e9d33"
+      },
+      {
+         "type" : "x-cmbr/text",
+         "data" : {
+            "format" : "html",
+            "text" : "<strong id=\"strong-f348f6bc316b473e70a2b8bf8c117e70\">Ägarna Mats och Ebbe Vollmer var </strong> uppe på Vasateaterns scen för att ta emot beskedet att de går från en till två stjärnor i guiden."
+         },
+         "id" : "paragraph-9e9c8215c82a494883d08947a3649029"
+      },
+      {
+         "data" : {
+            "format" : "html",
+            "text" : "– Det här är så stort för oss. Jag kan inte ens greppa det. Vi har jobbat så hårt för detta, sade Mats Vollmer på scenen innan han tackade sin personal."
+         },
+         "type" : "x-cmbr/text",
+         "id" : "paragraph-0c8ba8adc097b087cc8b191945f818ca"
+      },
+      {
+         "id" : "paragraph-ebdf8614ff8d43790b0b78115fe8dd1d",
+         "data" : {
+            "text" : "Vollmers fick sin första stjärna i guiden 2015 och går nu två år senare vidare till två stjärnor.",
+            "format" : "html"
+         },
+         "type" : "x-cmbr/text"
+      },
+      {
+         "type" : "x-cmbr/text",
+         "data" : {
+            "text" : "– Nu finns det ingen diskussion: det har aldrig funnits en bättre restaurang i Malmö, säger Mats Vollmer till Dygnet Runt i <a href=\"Nu finns det ingen diskussion: det har aldrig funnits en bättre restaurang i Malmö”\" id=\"link-e9bf7c49d8e09aff74896d1e5682fd3d\" title=\"\">intervjun här. </a>",
+            "format" : "html"
+         },
+         "id" : "paragraph-562a0031620b8e046510a71902a0e17d"
+      },
+      {
+         "uuid" : "b5319628-e139-5cd6-bbe5-1e92fd0a23f6",
+         "id" : "MjA4LDYwLDE2NSwxMDI",
+         "type" : "x-im/image",
+         "links" : [
+            {
+               "uri" : "im://image/QOgGlbOehMznJD-Z1Tr339QVR6A.jpeg",
+               "rel" : "self",
+               "uuid" : "b5319628-e139-5cd6-bbe5-1e92fd0a23f6",
+               "type" : "x-im/image",
+               "links" : [
+                  {
+                     "rel" : "author",
+                     "uuid" : "00000000-0000-0000-0000-000000000000",
+                     "title" : "Lars Brundin"
+                  }
+               ],
+               "data" : {
+                  "height" : 1668,
+                  "width" : 2500,
+                  "text" : "Kramkalas på Restaurang Sture efter beskedet."
+               }
+            }
+         ]
+      },
+      {
+         "data" : {
+            "text" : "<strong id=\"strong-757a22bef8b0dc74097a8db22cfb576a\">En annan nyhet på den</strong> skånska fronten är att Restaurang Sture på Adelgatan även tilldelas en Michelinstjärna. Karim Khouani drev tidigare Ambiance à Vindåkra i utkanten av Malmö som även hade en Michelinstjärna. När Khouani förra året lade ner Ambiance för att istället satsa på Sture så ställde sig många frågan om han skulle få behålla Michelinstjärnan fast på ny restaurang och så blev det. Karim Khouani var själv på scenen och fick frågan om han hade förväntat sig detta.",
+            "format" : "html"
+         },
+         "type" : "x-cmbr/text",
+         "id" : "paragraph-55f2579b5c8f08e2445d9190889e44d5"
+      },
+      {
+         "id" : "paragraph-89e9c2e3fea88adda68317a9d65b0521",
+         "data" : {
+            "format" : "html",
+            "text" : "– Lite faktiskt. Vi har jobbat hårt för detta, sade Karim Khouani."
+         },
+         "type" : "x-cmbr/text"
+      },
+      {
+         "data" : {
+            "text" : "Enligt Frida Sjögren, restaurangchef på Sture, hoppades restaurangen på att få det här beskedet.",
+            "format" : "html"
+         },
+         "type" : "x-cmbr/text",
+         "id" : "paragraph-0c33bdb5f037c5b0793ae0506b343d34"
+      },
+      {
+         "id" : "paragraph-cfd0a6b7965684a430a4bdae1a06549d",
+         "data" : {
+            "text" : "– Men det känns ändå fantastiskt. Och det kommer göra jättemycket för restaurangen – många fler kommer få upp ögonen för oss. Hela Malmö visar att vi inte längre är en gastronomisk förort till Köpenhamn lämngre, utan att vi kan mäta oss på egen hand, säger hon.",
+            "format" : "html"
+         },
+         "type" : "x-cmbr/text"
+      },
+      {
+         "uuid" : "1b34f847-fb4c-59e2-a648-42fe168061d2",
+         "id" : "MTE2LDQxLDE3MywxMDU",
+         "links" : [
+            {
+               "type" : "x-im/image",
+               "links" : [
+                  {
+                     "title" : "Lars Brundin",
+                     "rel" : "author",
+                     "uuid" : "00000000-0000-0000-0000-000000000000"
+                  }
+               ],
+               "data" : {
+                  "height" : 1668,
+                  "width" : 2500,
+                  "text" : "En stjärna till Restaurang Sture. "
+               },
+               "uri" : "im://image/ZcrcVwEZyI29HDnmykq1te8M5-s.jpeg",
+               "uuid" : "1b34f847-fb4c-59e2-a648-42fe168061d2",
+               "rel" : "self"
+            }
+         ],
+         "type" : "x-im/image"
+      },
+      {
+         "id" : "paragraph-3d83b7cd228e7eb49aa476e3850793e8",
+         "type" : "x-cmbr/text",
+         "data" : {
+            "text" : "Daniel Berlin Krog i Skånes Tranås  och Bloom in the Park i Malmö får behålla sin Michelinstjärna som de hade sedan tidigare.",
+            "format" : "html"
+         }
+      },
+      {
+         "data" : {
+            "text" : "<strong id=\"strong-3912a7fabfcf457aae1919c8637da8e3\">Bib Gourmand är Michelinguidens</strong> utmärkelse till restauranger som gör mat på hög gastronomisk nivå till ett bra pris. Förra året var det Sture och Bastard som tilldelades Bib Gourmand i Malmö, men nu är det fler. Bastard, Cirkus at More Bistro och Namu.",
+            "format" : "html"
+         },
+         "type" : "x-cmbr/text",
+         "id" : "paragraph-29d9c8e390b21f82cc8b1c646785a07a"
+      },
+      {
+         "type" : "x-cmbr/text",
+         "data" : {
+            "format" : "html",
+            "text" : "Anders Vendel på Cirkus at More Bistro drev tidigare Sture så han behåller sin Bib Gourmand, men Jennie Walldén på Namu är helt ny i guiden."
+         },
+         "id" : "0dce2a6b0e1b462c94178b60d166a766"
+      },
+      {
+         "id" : "paragraph-3ff8aee98298c7cb938982d2ad85344e",
+         "type" : "x-cmbr/text",
+         "data" : {
+            "format" : "html",
+            "text" : "I Köpenhamn blev det klart att Kristian Baumanns restaurang 108 tilldelas en stjärna och att Noma blir av med sina två eftersom de stänger sin nuvarande restaurang för att öppna en ny senare i år."
+         }
+      },
+      {
+         "type" : "x-cmbr/headline",
+         "data" : {
+            "text" : "Nya stjärnor i 2017 års Michelinguide:",
+            "format" : "html"
+         },
+         "id" : "headline-416dceac1c521b9c07e959995d173403"
+      },
+      {
+         "id" : "paragraph-e2f7ab4363007a85b974ab60c83aebe4",
+         "type" : "x-cmbr/text",
+         "data" : {
+            "format" : "html",
+            "text" : "• <strong id=\"strong-662d45cec73e27d2bb54fd40079c9074\">Två stjärnor:</strong>"
+         }
+      },
+      {
+         "data" : {
+            "format" : "html",
+            "text" : "Henne Kirkeby Kro, Esbjerg,"
+         },
+         "type" : "x-cmbr/text",
+         "id" : "paragraph-c2eb2a118afa6848d473aa103cf6a1b3"
+      },
+      {
+         "id" : "paragraph-5fd023669900fd2ba44ba4c9acdf7776",
+         "data" : {
+            "text" : "Vollmers, Malmö",
+            "format" : "html"
+         },
+         "type" : "x-cmbr/text"
+      },
+      {
+         "id" : "paragraph-721a0d79ebcab4d688856edadf67d078",
+         "type" : "x-cmbr/text",
+         "data" : {
+            "format" : "html",
+            "text" : ""
+         }
+      },
+      {
+         "id" : "paragraph-7309efd4fd6d651ace8ce3292d961a2c",
+         "type" : "x-cmbr/text",
+         "data" : {
+            "format" : "html",
+            "text" : "• <strong id=\"strong-f1af88d1d05271595b33d7829d06d74c\">En stjärna:</strong>"
+         }
+      },
+      {
+         "data" : {
+            "format" : "html",
+            "text" : "Sture, Malmö"
+         },
+         "type" : "x-cmbr/text",
+         "id" : "fef82691830b6166bae6a23a6644e353"
+      },
+      {
+         "id" : "fa5b7c79d865170d21f58faef168806b",
+         "data" : {
+            "text" : "108, Köpenhamn",
+            "format" : "html"
+         },
+         "type" : "x-cmbr/text"
+      },
+      {
+         "type" : "x-cmbr/text",
+         "data" : {
+            "text" : "Domestic, Århus i Danmark",
+            "format" : "html"
+         },
+         "id" : "ea37fdf197cff0f614b4a1cc8a9fed8e"
+      },
+      {
+         "type" : "x-cmbr/text",
+         "data" : {
+            "format" : "html",
+            "text" : "Sabi Omakase, Stavanger i Norge"
+         },
+         "id" : "878df22f66d98dd0e96a1ad6eb0b597f"
+      },
+      {
+         "data" : {
+            "text" : "Ti Trin Ned, Fredericia i Danmark",
+            "format" : "html"
+         },
+         "type" : "x-cmbr/text",
+         "id" : "paragraph-81b0c1f73dcef0c0f9c57631bb591db0"
+      },
+      {
+         "id" : "paragraph-20df3a6a1d8420742e9e2184637ad1c8",
+         "type" : "x-cmbr/text",
+         "data" : {
+            "format" : "html",
+            "text" : "Slotskøkkenet, Hørve i Danmark"
+         }
+      },
+      {
+         "type" : "x-cmbr/text",
+         "data" : {
+            "text" : "Imouto, Stockholm",
+            "format" : "html"
+         },
+         "id" : "paragraph-f0f0b86a1ce1d44b23041c2855f188d1"
+      },
+      {
+         "id" : "paragraph-73453ec6073c95068e2632dd9ef79e0d",
+         "data" : {
+            "format" : "html",
+            "text" : "Dill, Reykjavik (Den första restaurangen på Island som får en stjärna i guiden)."
+         },
+         "type" : "x-cmbr/text"
+      },
+      {
+         "id" : "paragraph-01fe4f641305f49b328c075fd0e63198",
+         "data" : {
+            "text" : "Koks, Torshavn på Färöarna (Den första restaurangen på Färöarna som får en stjärna i guiden).",
+            "format" : "html"
+         },
+         "type" : "x-cmbr/text"
+      },
+      {
+         "id" : "paragraph-787a934e308e431f367199366160a7bf",
+         "data" : {
+            "text" : "För att se hela listan på alla restaurangerna i Michelins nordiska guide, <a href=\"http://mb.cision.com/Public/55/2194838/8923550a340f61b0.pdf\" id=\"link-5a98b50861c06dcaff9fbe7c21ab4e7d\" title=\"\">läs här.</a>",
+            "format" : "html"
+         },
+         "type" : "x-cmbr/text"
+      },
+      {
+         "data" : {
+            "text" : "",
+            "format" : "html"
+         },
+         "type" : "x-cmbr/text",
+         "id" : "paragraph-e22e9f075da1a753b39119057291f9e4"
+      },
+      {
+         "id" : "paragraph-dc4fecd1cf834330a2f365b4935bd857",
+         "data" : {
+            "format" : "html",
+            "text" : "• <strong id=\"strong-e6c53867fb23c5556dc3621fc8bdbc96\">Michelinguiden finns idag i </strong> 29 olika länder. De första Michelinstjärnorna i Skandinavien delades ut 1983. 2015 var första året som Malmörestauranger fanns med i guiden. 2016 kunde även restauranger utanför de tre svenska storstäderna tilldelas stjärnor."
+         },
+         "type" : "x-cmbr/text"
+      },
+      {
+         "data" : {
+            "text" : "<a href=\"facebook.com/sydsvenskandygnetrunt\" id=\"link-3a1c6ac6609fe6c45278f0d1aa84e9a0\" title=\"\">Håll koll på Malmös krogliv – följ Dygnet Runt på Facebook</a>",
+            "format" : "html"
+         },
+         "type" : "x-cmbr/text",
+         "id" : "paragraph-4f33082a20e170bdcd087ed90c2bacd3"
+      }
+   ],
+   "meta" : [
+      {
+         "id" : "c90f8bff8a48",
+         "type" : "x-im/newsvalue",
+         "data" : {
+            "duration" : 86400,
+            "description" : "1D",
+            "score" : 4
+         }
+      },
+      {
+         "id" : "OTksMjI2LDg4LDExMw",
+         "links" : [
+            {
+               "uri" : "cmbr://content-profile/type/news",
+               "rel" : "type",
+               "type" : "x-cmbr/content-profile+type"
+            },
+            {
+               "uri" : "cmbr://content-profile/gender/neutral",
+               "rel" : "gender",
+               "type" : "x-cmbr/content-profile+gender"
+            }
+         ],
+         "type" : "x-cmbr/content-profile"
+      },
+      {
+         "id" : "MTg5LDExMSwxNDYsMTAz",
+         "type" : "x-cmbr/features",
+         "links" : [
+            {
+               "uri" : "x-cmbr://enable-comments",
+               "rel" : "feature",
+               "type" : "x-cmbr/feature"
+            }
+         ]
+      },
+      {
+         "data" : {
+            "text" : "Historiskt ögonblick i Malmös krogvärld – jubel på Vollmers",
+            "width" : 2560,
+            "height" : 1536
+         },
+         "type" : "x-im/teaser",
+         "links" : [
+            {
+               "type" : "x-im/image",
+               "rel" : "image",
+               "uuid" : "beeea8ca-ec26-59b4-bd2d-e0b6f44c960d",
+               "uri" : "im://image/MsV6vIznJIJD1ShQ-7rFiu4y0dI.jpeg"
+            }
+         ],
+         "title" : "Malmörestaurang får två stjärnor i Michelinguiden ",
+         "id" : "auto-teaser"
+      }
+   ]
+}

@@ -1,0 +1,114 @@
+{
+  "title": "Base document schema",
+  "description": "The base schema that all documents must comply with",
+  "type": "object",
+  "required": ["uuid", "uri", "type", "status", "created", "modified"],
+  "additionalProperties": false,
+  "properties": {
+    "uuid": {
+      "type": "string",
+      "pattern": "^[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12}$"
+    },
+    "uri": {"type": "string", "format": "uri"},
+    "url": {"type": "string", "format": "uri"},
+    "private": {"type": "boolean"},
+    "title": {"type": "string"},
+    "path": {"type": "string"},
+    "source": { "type": "string" },
+    "type": {
+      "type": "string",
+      "pattern": "^[-\\w]+/[-\\w\\+]+$"
+    },
+    "status": {"enum": ["withheld", "usable", "canceled", "done", "draft"]},
+    "created": {"type": "string", "format": "date-time"},
+    "modified": {"type": "string", "format": "date-time"},
+    "published": {"type": "string", "format": "date-time"},
+    "unpublished": {"type": "string", "format": "date-time"},
+    "products": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "meta": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/block" }
+    },
+    "links": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/link" }
+    },
+    "content": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/block" }
+    },
+    "properties": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/property" }
+    }
+  },
+  "definitions": {
+    "block": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "type"],
+      "properties": {
+        "id": {"type":"string"},
+        "uuid": {
+          "type": "string",
+          "pattern": "^[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12}$"
+        },
+        "type": {"type":"string"},
+        "title": {"type":"string"},
+        "uri": {"type": "string", "format": "uri"},
+        "url": {"type": "string"},
+        "data": { "$ref": "#/definitions/data" },
+        "links": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/link" }
+        }
+      }
+    },
+    "link": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["rel"],
+      "properties": {
+        "id": {"type":"string"},
+        "uuid": {
+          "type": "string",
+          "pattern": "^[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12}$"
+        },
+        "type": {"type":"string"},
+        "rel": {"type":"string"},
+        "title": {"type":"string"},
+        "uri": {"type": "string", "format": "uri"},
+        "url": {"type": "string"},
+        "data": { "$ref": "#/definitions/data" },
+        "links": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/link" }
+        }
+      }
+    },
+    "data": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "width": {"type":"integer"},
+        "height": {"type":"integer"},
+        "score": {"type":"integer"},
+        "text": {"type":"string"},
+        "format": {"type":"string"},
+        "description": {"type":"string"},
+        "qcode": {"type":"string"}
+      }
+    },
+    "property": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": {"type":"string"},
+        "value": {"type":"string"}
+      }
+    }
+  }
+}
