@@ -1,6 +1,6 @@
-# Document format
+# Ordning Publishing Format
 
-The key parts of a NYP (NY Plattform / New Platform) document are:
+The key parts of an Ordning document are:
 
 * Basic attributes like `uri`, `uuid`, `path`, `title` and `products`.
 * Links that provide information about the document's relationship to other entities: the author, subjects et.c.
