@@ -10,7 +10,7 @@ The key parts of an Ordning document are:
 
 The document format is defined in a [JSON Schema](document.schema.json). There's also a [sample document](doc.json).
 
-Two prefixes will be recurring throughout the example document for mime-style types and URI protocols, and that's `x-im/`/`im://` and `x-cmbr/`/`cmbr://`. The `im` prefix is used for types that we and Infomaker have agreed on as shared standards; the `cmbr` prefix is used for our own types. `cmbr` is a case of vestigal naming as the NYP project had (at one point) the working title Cambrian.
+Two prefixes will be recurring throughout the example document for mime-style types and URI protocols, and that's `x-im/`/`im://` and `x-cmbr/`/`cmbr://`. The `im` prefix is used for types that we and Infomaker/Naviga are both using; the `cmbr` prefix is used for our own types. `cmbr` is legacy from the early beginnings of the Ordning project, where (at one point) it had the working title Cambrian.
 
 ## Basic attributes
 
